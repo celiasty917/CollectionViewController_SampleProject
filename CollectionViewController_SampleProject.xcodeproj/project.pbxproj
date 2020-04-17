@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E559703E2448022400B44338 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E559703D2448022400B44338 /* CollectionViewCell.m */; };
 		E55E1BAA24470672001962C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E55E1BA924470672001962C6 /* AppDelegate.m */; };
-		E55E1BAD24470672001962C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55E1BAC24470672001962C6 /* ViewController.m */; };
 		E55E1BB024470672001962C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55E1BAE24470672001962C6 /* Main.storyboard */; };
 		E55E1BB324470672001962C6 /* CollectionViewController_SampleProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E55E1BB124470672001962C6 /* CollectionViewController_SampleProject.xcdatamodeld */; };
 		E55E1BB524470674001962C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55E1BB424470674001962C6 /* Assets.xcassets */; };
 		E55E1BB824470674001962C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55E1BB624470674001962C6 /* LaunchScreen.storyboard */; };
 		E55E1BBB24470674001962C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E55E1BBA24470674001962C6 /* main.m */; };
+		E55E1BC324471129001962C6 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55E1BC224471129001962C6 /* CollectionViewController.m */; };
+		E5AE00D42448600100655B16 /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AE00D32448600100655B16 /* CollectionReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E559703C2448022400B44338 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		E559703D2448022400B44338 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		E55E1BA524470672001962C6 /* CollectionViewController_SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewController_SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55E1BA824470672001962C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E55E1BA924470672001962C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E55E1BAB24470672001962C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E55E1BAC24470672001962C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E55E1BAF24470672001962C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E55E1BB224470672001962C6 /* CollectionViewController_SampleProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollectionViewController_SampleProject.xcdatamodel; sourceTree = "<group>"; };
 		E55E1BB424470674001962C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E55E1BB724470674001962C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E55E1BB924470674001962C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55E1BBA24470674001962C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E55E1BC124471129001962C6 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		E55E1BC224471129001962C6 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		E5AE00D22448600100655B16 /* CollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
+		E5AE00D32448600100655B16 /* CollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +68,13 @@
 			children = (
 				E55E1BA824470672001962C6 /* AppDelegate.h */,
 				E55E1BA924470672001962C6 /* AppDelegate.m */,
-				E55E1BAB24470672001962C6 /* ViewController.h */,
-				E55E1BAC24470672001962C6 /* ViewController.m */,
 				E55E1BAE24470672001962C6 /* Main.storyboard */,
+				E5AE00D22448600100655B16 /* CollectionReusableView.h */,
+				E5AE00D32448600100655B16 /* CollectionReusableView.m */,
+				E559703C2448022400B44338 /* CollectionViewCell.h */,
+				E559703D2448022400B44338 /* CollectionViewCell.m */,
+				E55E1BC124471129001962C6 /* CollectionViewController.h */,
+				E55E1BC224471129001962C6 /* CollectionViewController.m */,
 				E55E1BB424470674001962C6 /* Assets.xcassets */,
 				E55E1BB624470674001962C6 /* LaunchScreen.storyboard */,
 				E55E1BB924470674001962C6 /* Info.plist */,
@@ -144,10 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E55E1BAD24470672001962C6 /* ViewController.m in Sources */,
+				E559703E2448022400B44338 /* CollectionViewCell.m in Sources */,
 				E55E1BB324470672001962C6 /* CollectionViewController_SampleProject.xcdatamodeld in Sources */,
 				E55E1BBB24470674001962C6 /* main.m in Sources */,
+				E55E1BC324471129001962C6 /* CollectionViewController.m in Sources */,
 				E55E1BAA24470672001962C6 /* AppDelegate.m in Sources */,
+				E5AE00D42448600100655B16 /* CollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
